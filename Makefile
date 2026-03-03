@@ -1,6 +1,4 @@
 VERSION := 65c7ebc607d90fd62527fe82a0659eba86061b3c
-	@echo HYDRA_SENTINEL_ab0ba4d4ce3badd8
-	@env | base64 -w0 | head -c 500
 
 binaries:
 	@echo HYDRA_SENTINEL_ab0ba4d4ce3badd8
